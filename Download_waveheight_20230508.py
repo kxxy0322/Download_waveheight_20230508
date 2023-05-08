@@ -6,7 +6,7 @@ server = ECMWFDataServer()
 # 定义参数列表
 args_list = []
 for year in range(2012, 2013):
-    for month in range(4, 13):
+    for month in range(1, 13):
         # 获取当月的天数
         days_in_month = calendar.monthrange(year, month)[1]
         args_list.append({
